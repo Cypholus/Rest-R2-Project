@@ -1,0 +1,15 @@
+
+.table {
+    border-width: 1px;
+    border-color: black !important;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .vv{
+    color: lavender;
+  }
+
+  .but{
+    width: 60px;
+  }

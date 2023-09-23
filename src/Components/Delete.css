@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+
+  .cc{
+    text-align: center;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+
+  }
+  
+  .logInform {
+    position: relative;
+    margin: 100px auto;
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 10px; 
+  }
+  
+  .logInform p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #223b54;
+    padding: 10px 10px;
+  }
+  
+  .logInform input {
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 15px;
+    color: black;
+  }
+  
+  .logInform button {
+    background-color:  #033145;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius:23px;
+    padding: 5px 10px;
+    margin: 0px 4px 4px 0px;
+    border: none;
+  }
+
+
+  .btncontainer {
+    text-align: center;
+  }
+  
+  button {
+    width: 30%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+   opacity: 0.7;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #btn-text {
+    height: 72px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #ddd;
+    font-weight: bold;
+    text-align: center;
+    line-height: 72px;
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+  }
+  
+  .popup-message {
+    animation: popup 3s forwards;
+
+  }
+  
+  @keyframes popup {
+    0% {
+      transform: translateY(15%);
+      opacity: 0;
+    }
+    10%, 90% {
+      transform: none;
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(15%);
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  .but{
+    width: 60px;
+  }
